@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(255, 230, 198);
+    border: 2px;
+}
+h1{
+    font-family: cursive;
+    font-size: 37px;
+    align-content: center;
+}
+h2{
+    align-content: center;
+    color: #005974;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+}
+.libro{
+    padding: auto;
+    background-color: rgb(247, 193, 127);
+    color: black;
+    align-content: center;
+    animation-duration: 0.7s;
+    flex-flow: column;
+    display: flexbox;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    gap: 30px;
+}
+.libro:hover{
+    transform: scale(1.05s);
+}
+.disponible{
+    color: #00ff22;
+}
+.nodisponible{
+    color: #ff0000;
+}
+head{
+    background-color: bisque;
+}
